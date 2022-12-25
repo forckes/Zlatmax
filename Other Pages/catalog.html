@@ -1,0 +1,1577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/catalog.css">
+    <link rel="stylesheet" href="/css/iconfont.css">
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/noUiSlider-15.6.1/dist/nouislider.min.css">
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <title>Каталог Товарів</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__top top-header">
+                <div class="top-header__container _container">
+                    <nav class="top-header__menu menu-top-header">  
+                        <div data-da=".menu__body,992" class="menu__logo _icon-logo"></div> 
+                        <div data-da=".menu__body,992" class="menu__search">
+                            <form action="#" class="search-menu">
+                                <button type="sumbit" class="_icon-Search search-menu__button"></button>
+                                <input placeholder="Пошук по сайту" type="text" name="[form]" class="search-menu__input">
+                            </form>
+                        </div>                    
+                        <ul data-da=".menu__body,992" class="menu-top-header__list">
+                            <li class="menu-top-header__item_catalog _icon-restore-svgrepo-com"><a data-catalog href="#" class="menu-top-header__link_catalog _icon-arrow-bottom">Каталог товаров</a></li>
+                            <li class="menu-top-header__item"><a class="menu-top-header__link _icon-faq" href="#">О нас</a></li>
+                            <li class="menu-top-header__item"><a class="menu-top-header__link _icon-delivery" href="#">Оплата и доставка</a></li>
+                            <li class="menu-top-header__item"><a class="menu-top-header__link _icon-news" href="#">Новости</a></li>
+                            <li class="menu-top-header__item"><a class="menu-top-header__link _icon-phone" href="#">Контакты</a></li>
+                        </ul>
+                    </nav>
+                    <a href="#" class="top-header__user _icon-User"><span>Личный кабинет</span></a>
+                    <nav hidden class="menu">
+                        <button type="button" class=" menu__icon icon-menu"><span></span></button>
+                        <div class="menu__body">
+                            
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="header__body body-header">
+                <div class="body-header__container _container">
+                    <a href="/home.html" class="body-header__logo _icon-logo"></a>
+                    <div class="body-header__search">
+                        <form action="#" class="search-header">
+                            <button type="sumbit" class="_icon-Search search-header__button"></button>
+                            <input placeholder="Поиск" type="text" name="[form]" class="search-header__input">
+                        </form>
+                    </div>
+                    <div class="body-header__actions actions-header">
+                        <a href="#" class="actions-header__location _icon-location">Киев</a>
+                        <div data-da=".top-header__container,992,2" class="body-header__back-call back-call-header">
+                            <div class="back-call-header__items">
+                                <div class="back-call-header__item">
+                                    <a href="tel:88007774967" class="back-call-header__phone"><span>8-800-777-49-67</span></a>
+                                    <button class="back-call-header__arrow _icon-spoiler-arrow"></button>
+                                </div>
+                            </div>
+                            <button type="button" class="back-call-header__call">Заказать звонок</button>
+                        </div>
+                        <a data-da=".top-header__container,992,3" href="" class="actions-header__favorite _icon-Favorite"></a>
+                        <a data-da=".top-header__container,992,4" href="" class="actions-header__cart _icon-cart"><span>0</span></a>
+                        <div class="actions-header__offer">
+                            <div class="actions-header__balance">0 р.</div>
+                            <button type="button" class="actions-header__link">Оформить заказ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-da=".menu__body,992" class="header__catalog catalog-header">
+                <div class="catalog-header__container _container">
+                    <nav class="catalog-header__menu menu-catalog">
+                        <button type="button" class="menu-catalog__back _icon-back">Назад</button>
+                        <ul class="menu-catalog__list">
+                            <li class="menu-catalog__item"><button data-parent="1" class="menu-catalog__link">Каталог ножей</button></li>
+                            <li class="menu-catalog__item"><button data-parent="2" class="menu-catalog__link">Клинковое оружие</button></li>
+                            <li class="menu-catalog__item"><button data-parent="3" class="menu-catalog__link">Сувенирные изделия</button></li>
+                            <li class="menu-catalog__item"><button data-parent="4" class="menu-catalog__link">Фонари ARMYTEK</button></li>
+                            <li class="menu-catalog__item"><button data-parent="5" class="menu-catalog__link">Сопуствующие товары</button></li>
+                        </ul>              
+                    </nav>
+                    <div class="catalog-header__sub-menu sub-menu-catalog">
+                        <button type="button" class="sub-menu-catalog__back _icon-back">Назад</button>
+                        <div class="sub-menu-catalog__container _container">
+                            <div data-submenu="1" class="sub-menu-catalog__block">
+                                <a href="" class="sub-menu-catalog__category _icon-arrow-bottom">Категория ножей</a>
+                                <a href="" class="sub-menu-catalog__category _icon-arrow-bottom">Производство ножей</a>
+                                <a href="" class="sub-menu-catalog__category _icon-arrow-bottom">Ножи по маркам стали</a>
+                                <a href="" class="sub-menu-catalog__category _icon-arrow-bottom">Заточка и полировка ножей</a>
+                                <a href="" class="sub-menu-catalog__category _icon-arrow-bottom">Ножевая мастерская</a>
+                                <ul class="sub-menu-catalog__list">
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Разделочные ножи</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Туристические ножи</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Ножи охотничьи</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Булатные ножи</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Ножи из дамаска</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Тактического назначения</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Метательные ножи</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Мачете и кукри</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Ножи кухонные</a></li>
+                                </ul>
+                                <ul class="sub-menu-catalog__list">
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Ножи АИР</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Ножи ЗИК</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Ножи ЗЗОСС</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Ножи РОСоружие</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Ножи Оружейник</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Булат Сергея Баранова</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Булат Андрея Умерова</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Ножи Златко</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Ножи Стиль-М</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Оружейная компания</a></li>
+                                </ul>
+                                <ul class="sub-menu-catalog__list">
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Ножи из стали 40х102С2М</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Ножи из стали 95х18</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Ножи из стали 100х13м</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Ножи из стали 110х18м-ШД</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Ножи из стали ЭИ-107 ТЦ</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Ножи из стали 50х14МФ</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Ножи из стали AUS-8</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Ножи из стали К340</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Ножи из стали M390</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Ножи из стали ЭП-766</a></li>
+                                </ul>
+                                <ul class="sub-menu-catalog__list">
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Паста ГОИ</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Алмазная паста</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Бруски и камни для заточки</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Заточные системы</a></li>
+                                </ul>
+                                <ul class="sub-menu-catalog__list">
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Ножевые клинки</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Заготовки для ножей</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Литье для ножей</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Материалы для рукоятей</a></li>
+                                    <li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Уход за рукоятиями ножей</a></li>
+                                </ul>
+                                <a href="#" class="sub-menu-catalog__all">Смотреть все</a>
+                                <a href="#" class="sub-menu-catalog__all">Смотреть все</a>
+                                <a href="#" class="sub-menu-catalog__all">Смотреть все</a>
+                                <a href="#" class="sub-menu-catalog__all">Смотреть все</a>
+                                <a href="#" class="sub-menu-catalog__all">Смотреть все</a>
+                            </div>
+                            <div data-submenu="2" class="sub-menu-catalog__block"></div>
+                            <div data-submenu="3" class="sub-menu-catalog__block"></div>
+                            <div data-submenu="4" class="sub-menu-catalog__block"></div>
+                            <div data-submenu="5" class="sub-menu-catalog__block"></div>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="page page_catalog">
+            <div class="page__header _container">
+                <div class="page__title title">Розділочні ножі</div>
+                    <nav class="page__breadcrumps breadcrumps">    
+                        <ul class="breadcrumps__list">
+                            <li class="breadcrumps__item">
+                                <a href="/home.html" class="breadcrumps__link">Головна</a>
+                            </li>
+                            <li class="breadcrumps__item">
+                                <a href="#" class="breadcrumps__current">Розділочні ножі</a>
+                            </li>
+                        </ul>
+                    </nav>
+            </div>
+            <div class="catalog">
+                <div class="catalog__container _container">
+                    <div data-spollers class="catalog__body">
+                        <div class="catalog__filter filter-catalog">
+                            <button type="button" data-spoller class="filter-catalog__title _icon-spoiler-arrow">Фільтр товарів</button>
+                            <div data-spollers  class="filter-catalog__items">
+                                <div class="filter-catalog__price price-filter">
+                                    <button data-spoller tabindex="-1" type="button" class="price-filter__title _icon-spoiler-arrow">Ціна</button>
+                                    <div data-range class="price-filter__body">
+                                        <div class="price-filter__inputs">
+                                            <label class="price-filter__label">
+                                                <span class="price-filter__text">від</span>
+                                                <input value="1000" min="500" max="999999" data-range-from autocomplete="off" name="form[]" type="text" id="input-0" class="price-filter__input">
+                                                <span class="price-filter__text">₴</span>
+                                            </label>
+                                            <label class="price-filter__label">
+                                                <span class="price-filter__text">до</span>
+                                                <input value="6000" min="500" max="999999" data-range-to autocomplete="off" name="form[]" type="text" id="input-1" class="price-filter__input">
+                                                <span class="price-filter__text">₴</span>
+                                            </label>
+                                        </div>
+                                        <div data-range-item id="range-slider" class="price-filter__range"></div>
+                                        <button type="button" class="price-filter__button">Застосувати</button>
+                                    </div>
+                                </div>
+                                <div class="filter-catalog__production production-filter">
+                                    <button data-spoller tabindex="-1" type="button" class="production-filter__title _icon-spoiler-arrow">Виробництво</button>
+                                    <div class="production-filter__body">
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input name="fotm[]" value="1" id="c_1" class="checkbox-production__input" type="checkbox">
+                                            <label for="c_1" class="checkbox-production__label"><span class="checkbox-production__text">АіР</span><small class="checkbox-production__text_small">(250)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_2" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_2" class="checkbox-production__label"><span class="checkbox-production__text">Булат Сергія Баранова</span><small class="checkbox-production__text_small">(25)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_3" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_3" class="checkbox-production__label"><span class="checkbox-production__text">Булат Умарова</span><small class="checkbox-production__text_small">(265)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_4" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_4" class="checkbox-production__label"><span class="checkbox-production__text">ЗЗОСС</span><small class="checkbox-production__text_small">(18)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_5" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_5" class="checkbox-production__label"><span class="checkbox-production__text">ЗІК</span><small class="checkbox-production__text_small">(170)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_6" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_6" class="checkbox-production__label"><span class="checkbox-production__text">ЗЛАТКО</span><small class="checkbox-production__text_small">(170)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_7" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_7" class="checkbox-production__label"><span class="checkbox-production__text">ЗлатПрофіт</span><small class="checkbox-production__text_small">(50)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_8 name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_8" class="checkbox-production__label"><span class="checkbox-production__text">ЗОК</span><small class="checkbox-production__text_small">(222)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_9" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_9" class="checkbox-production__label"><span class="checkbox-production__text">НБК</span><small class="checkbox-production__text_small">(127)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c10" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_10" class="checkbox-production__label"><span class="checkbox-production__text">НІКОН</span><small class="checkbox-production__text_small">(78)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_11" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_11" class="checkbox-production__label"><span class="checkbox-production__text">Зброяр</span><small class="checkbox-production__text_small">(42)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_12" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_12" class="checkbox-production__label"><span class="checkbox-production__text">УКРзброя</span><small class="checkbox-production__text_small">(39)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_13" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_13" class="checkbox-production__label"><span class="checkbox-production__text">СТІЛЬ-М</span><small class="checkbox-production__text_small">(13)</small></label>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="filter-catalog__production production-filter">
+                                    <button data-spoller tabindex="-1" type="button" class="production-filter__title _icon-spoiler-arrow">Сталь</button>
+                                    <div class="production-filter__body">
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input name="fotm[]" value="1" id="c_1" class="checkbox-production__input" type="checkbox">
+                                            <label for="c_1" class="checkbox-production__label"><span class="checkbox-production__text">АіР</span><small class="checkbox-production__text_small">(250)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_2" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_2" class="checkbox-production__label"><span class="checkbox-production__text">Булат Сергія Баранова</span><small class="checkbox-production__text_small">(25)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_3" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_3" class="checkbox-production__label"><span class="checkbox-production__text">Булат Умарова</span><small class="checkbox-production__text_small">(265)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_4" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_4" class="checkbox-production__label"><span class="checkbox-production__text">ЗЗОСС</span><small class="checkbox-production__text_small">(18)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_5" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_5" class="checkbox-production__label"><span class="checkbox-production__text">ЗІК</span><small class="checkbox-production__text_small">(170)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_6" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_6" class="checkbox-production__label"><span class="checkbox-production__text">ЗЛАТКО</span><small class="checkbox-production__text_small">(170)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_7" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_7" class="checkbox-production__label"><span class="checkbox-production__text">ЗлатПрофіт</span><small class="checkbox-production__text_small">(50)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_8 name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_8" class="checkbox-production__label"><span class="checkbox-production__text">ЗОК</span><small class="checkbox-production__text_small">(222)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_9" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_9" class="checkbox-production__label"><span class="checkbox-production__text">НБК</span><small class="checkbox-production__text_small">(127)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c10" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_10" class="checkbox-production__label"><span class="checkbox-production__text">НІКОН</span><small class="checkbox-production__text_small">(78)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_11" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_11" class="checkbox-production__label"><span class="checkbox-production__text">Зброяр</span><small class="checkbox-production__text_small">(42)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_12" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_12" class="checkbox-production__label"><span class="checkbox-production__text">УКРзброя</span><small class="checkbox-production__text_small">(39)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_13" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_13" class="checkbox-production__label"><span class="checkbox-production__text">СТІЛЬ-М</span><small class="checkbox-production__text_small">(13)</small></label>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="filter-catalog__production production-filter">
+                                    <button data-spoller tabindex="-1" type="button" class="production-filter__title _icon-spoiler-arrow">Рукоять</button>
+                                    <div class="production-filter__body">
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input name="fotm[]" value="1" id="c_1" class="checkbox-production__input" type="checkbox">
+                                            <label for="c_1" class="checkbox-production__label"><span class="checkbox-production__text">АіР</span><small class="checkbox-production__text_small">(250)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_2" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_2" class="checkbox-production__label"><span class="checkbox-production__text">Булат Сергія Баранова</span><small class="checkbox-production__text_small">(25)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_3" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_3" class="checkbox-production__label"><span class="checkbox-production__text">Булат Умарова</span><small class="checkbox-production__text_small">(265)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_4" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_4" class="checkbox-production__label"><span class="checkbox-production__text">ЗЗОСС</span><small class="checkbox-production__text_small">(18)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_5" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_5" class="checkbox-production__label"><span class="checkbox-production__text">ЗІК</span><small class="checkbox-production__text_small">(170)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_6" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_6" class="checkbox-production__label"><span class="checkbox-production__text">ЗЛАТКО</span><small class="checkbox-production__text_small">(170)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_7" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_7" class="checkbox-production__label"><span class="checkbox-production__text">ЗлатПрофіт</span><small class="checkbox-production__text_small">(50)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_8 name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_8" class="checkbox-production__label"><span class="checkbox-production__text">ЗОК</span><small class="checkbox-production__text_small">(222)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_9" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_9" class="checkbox-production__label"><span class="checkbox-production__text">НБК</span><small class="checkbox-production__text_small">(127)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c10" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_10" class="checkbox-production__label"><span class="checkbox-production__text">НІКОН</span><small class="checkbox-production__text_small">(78)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_11" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_11" class="checkbox-production__label"><span class="checkbox-production__text">Зброяр</span><small class="checkbox-production__text_small">(42)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_12" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_12" class="checkbox-production__label"><span class="checkbox-production__text">УКРзброя</span><small class="checkbox-production__text_small">(39)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_13" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_13" class="checkbox-production__label"><span class="checkbox-production__text">СТІЛЬ-М</span><small class="checkbox-production__text_small">(13)</small></label>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div  class="filter-catalog__production production-filter">
+                                    <button data-spoller tabindex="-1" type="button" class="production-filter__title _icon-spoiler-arrow">Гарда та тильник</button>
+                                    <div class="production-filter__body">
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input name="fotm[]" value="1" id="c_1" class="checkbox-production__input" type="checkbox">
+                                            <label for="c_1" class="checkbox-production__label"><span class="checkbox-production__text">АіР</span><small class="checkbox-production__text_small">(250)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_2" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_2" class="checkbox-production__label"><span class="checkbox-production__text">Булат Сергія Баранова</span><small class="checkbox-production__text_small">(25)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_3" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_3" class="checkbox-production__label"><span class="checkbox-production__text">Булат Умарова</span><small class="checkbox-production__text_small">(265)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_4" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_4" class="checkbox-production__label"><span class="checkbox-production__text">ЗЗОСС</span><small class="checkbox-production__text_small">(18)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_5" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_5" class="checkbox-production__label"><span class="checkbox-production__text">ЗІК</span><small class="checkbox-production__text_small">(170)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_6" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_6" class="checkbox-production__label"><span class="checkbox-production__text">ЗЛАТКО</span><small class="checkbox-production__text_small">(170)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_7" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_7" class="checkbox-production__label"><span class="checkbox-production__text">ЗлатПрофіт</span><small class="checkbox-production__text_small">(50)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_8 name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_8" class="checkbox-production__label"><span class="checkbox-production__text">ЗОК</span><small class="checkbox-production__text_small">(222)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_9" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_9" class="checkbox-production__label"><span class="checkbox-production__text">НБК</span><small class="checkbox-production__text_small">(127)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c10" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_10" class="checkbox-production__label"><span class="checkbox-production__text">НІКОН</span><small class="checkbox-production__text_small">(78)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_11" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_11" class="checkbox-production__label"><span class="checkbox-production__text">Зброяр</span><small class="checkbox-production__text_small">(42)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_12" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_12" class="checkbox-production__label"><span class="checkbox-production__text">УКРзброя</span><small class="checkbox-production__text_small">(39)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_13" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_13" class="checkbox-production__label"><span class="checkbox-production__text">СТІЛЬ-М</span><small class="checkbox-production__text_small">(13)</small></label>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div  class="filter-catalog__production production-filter">
+                                    <button data-spoller tabindex="-1" type="button" class="production-filter__title _icon-spoiler-arrow">Позолочення</button>
+                                    <div class="production-filter__body">
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input name="fotm[]" value="1" id="c_1" class="checkbox-production__input" type="checkbox">
+                                            <label for="c_1" class="checkbox-production__label"><span class="checkbox-production__text">АіР</span><small class="checkbox-production__text_small">(250)</small></label>
+                                        </a>
+                                        <a href="" class="production-filter__checkbox checkbox-production">
+                                            <input id="c_2" name="fotm[]" value="1"  class="checkbox-production__input" type="checkbox">
+                                            <label for="c_2" class="checkbox-production__label"><span class="checkbox-production__text">Булат Сергія Баранова</span><small class="checkbox-production__text_small">(25)</small></label>
+                                        </a>   
+                                    </div>
+                                </div>
+                                <div class="filter-catalog__production production-filter">
+                                    <button data-spoller tabindex="-1" type="button" class="production-filter__title _icon-spoiler-arrow">Загальна довжина, мм</button>
+                                    <div class="production-filter__body">
+                                        <div class="price-filter__inputs">
+                                            <label class="price-filter__label">
+                                                <input value="1000" min="500" max="999999" data-range-from autocomplete="off" name="form[]" type="text" id="input-0" class="price-filter__input">
+                                                <span class="price-filter__text">мм</span>
+                                            </label>
+                                            <label class="price-filter__label">
+                                                <input value="6000" min="500" max="999999" data-range-to autocomplete="off" name="form[]" type="text" id="input-1" class="price-filter__input">
+                                                <span class="price-filter__text">мм</span>
+                                            </label>
+                                        </div>
+                                        <div data-range-item id="range-slider" class="price-filter__range"></div>
+                                        <button type="button" class="price-filter__button">Застосувати</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="catalog__content">
+                            <div class="catalog__control">
+                                <select name="form[]" class="control__form" id="">
+                                    <option value="1" selected>По популярності</option>
+                                    <option value="2">По спаданню ціни</option>
+                                    <option value="3">По зростанню ціни</option>
+                                    <option value="4">По даті</option>
+                                </select>
+                            </div>
+                            <div class="catalog__products">
+                                <article class="products-card">
+                                    <a href="#" class="products-card__image">
+                                        <span class="products-card__item-image-ibg products-card__item-image-ibg_contain">
+                                            <img src="/Src/Img/icons/Main-Page_[MainSliderPhoto]/01s 1.png">
+                                        </span>
+                                    </a>
+                                    <div class="products-card__body">
+                                        <h4 class="products-card__title">
+                                            <a href="#" class="products-card__link-title">Ніж Лиса</a>
+                                        </h4>
+                                        <div class="products-card__info info-products-card">
+                                            <div class="info-products-card__size">95х18</div>
+                                            <div class="info-products-card__materials">Горіх, Алюміній</div>
+                                        </div>
+                                        <div data-ajax="true" class="products-card__rating rating rating_set">
+                                            <div class="rating__body">
+                                                <div class="rating__active"></div>
+                                                <div class="rating__items">
+                                                    <input type="radio" value="1" name="rating" class="rating__item">
+                                                    <input type="radio" value="2" name="rating" class="rating__item">
+                                                    <input type="radio" value="3" name="rating" class="rating__item">
+                                                    <input type="radio" value="4" name="rating" class="rating__item">
+                                                    <input type="radio" value="5" name="rating" class="rating__item">
+                                                </div>
+                                            </div>
+                                            <div class="rating__value">3.1</div>
+                                            <a href="#" class="rating__info">12 відгуків</a>
+                                        </div>
+                                        <div class="products-card__footer">
+                                            <div class="products-card__price-container">
+                                                <div class="products-card__oldprice">3126₴</div>
+                                                <div class="products-card__newprice">2 719₴</div>
+                                                <div class="products-card__availability">Є в наявності</div>
+                                            </div>
+                                            <div class="products-card__icons-container">
+                                                <a href="" class="products-card__compare _icon-Compare"></a>
+                                                <a href="" class="products-card__favorite _icon-Favorite"></a>
+                                            </div>                                          
+                                        </div>
+                                        <button type="button" class="products-card__cart button"><span class="_icon-cart">В корзину</span></button>
+                                        <div class="products-card__sale">-15%</div>
+                                    </div>
+                                </article>
+                                <article class="products-card">
+                                    <a href="#" class="products-card__image">
+                                        <span class="products-card__item-image-ibg products-card__item-image-ibg_contain">
+                                            <img src="/Src/Img/icons/Main-Page_[MainSliderPhoto]/01s 1.png">
+                                        </span>
+                                    </a>
+                                    <div class="products-card__body">
+                                        <h4 class="products-card__title">
+                                            <a href="#" class="products-card__link-title">Ніж Лиса</a>
+                                        </h4>
+                                        <div class="products-card__info info-products-card">
+                                            <div class="info-products-card__size">95х18</div>
+                                            <div class="info-products-card__materials">Горіх, Алюміній</div>
+                                        </div>
+                                        <div data-ajax="true" class="products-card__rating rating rating_set">
+                                            <div class="rating__body">
+                                                <div class="rating__active"></div>
+                                                <div class="rating__items">
+                                                    <input type="radio" value="1" name="rating" class="rating__item">
+                                                    <input type="radio" value="2" name="rating" class="rating__item">
+                                                    <input type="radio" value="3" name="rating" class="rating__item">
+                                                    <input type="radio" value="4" name="rating" class="rating__item">
+                                                    <input type="radio" value="5" name="rating" class="rating__item">
+                                                </div>
+                                            </div>
+                                            <div class="rating__value">3.1</div>
+                                            <a href="#" class="rating__info">12 відгуків</a>
+                                        </div>
+                                        <div class="products-card__footer">
+                                            <div class="products-card__price-container">
+                                                <div class="products-card__oldprice">3126₴</div>
+                                                <div class="products-card__newprice">2 719₴</div>
+                                                <div class="products-card__availability">Є в наявності</div>
+                                            </div>
+                                            <div class="products-card__icons-container">
+                                                <a href="" class="products-card__compare _icon-Compare"></a>
+                                                <a href="" class="products-card__favorite _icon-Favorite"></a>
+                                            </div>                                          
+                                        </div>
+                                        <button type="button" class="products-card__cart button"><span class="_icon-cart">В корзину</span></button>
+                                        <div class="products-card__sale">-15%</div>
+                                    </div>
+                                </article>
+                                <article class="products-card">
+                                    <a href="#" class="products-card__image">
+                                        <span class="products-card__item-image-ibg products-card__item-image-ibg_contain">
+                                            <img src="/Src/Img/icons/Main-Page_[MainSliderPhoto]/01s 1.png">
+                                        </span>
+                                    </a>
+                                    <div class="products-card__body">
+                                        <h4 class="products-card__title">
+                                            <a href="#" class="products-card__link-title">Ніж Лиса</a>
+                                        </h4>
+                                        <div class="products-card__info info-products-card">
+                                            <div class="info-products-card__size">95х18</div>
+                                            <div class="info-products-card__materials">Горіх, Алюміній</div>
+                                        </div>
+                                        <div data-ajax="true" class="products-card__rating rating rating_set">
+                                            <div class="rating__body">
+                                                <div class="rating__active"></div>
+                                                <div class="rating__items">
+                                                    <input type="radio" value="1" name="rating" class="rating__item">
+                                                    <input type="radio" value="2" name="rating" class="rating__item">
+                                                    <input type="radio" value="3" name="rating" class="rating__item">
+                                                    <input type="radio" value="4" name="rating" class="rating__item">
+                                                    <input type="radio" value="5" name="rating" class="rating__item">
+                                                </div>
+                                            </div>
+                                            <div class="rating__value">3.1</div>
+                                            <a href="#" class="rating__info">12 відгуків</a>
+                                        </div>
+                                        <div class="products-card__footer">
+                                            <div class="products-card__price-container">
+                                                <div class="products-card__oldprice">3126₴</div>
+                                                <div class="products-card__newprice">2 719₴</div>
+                                                <div class="products-card__availability">Є в наявності</div>
+                                            </div>
+                                            <div class="products-card__icons-container">
+                                                <a href="" class="products-card__compare _icon-Compare"></a>
+                                                <a href="" class="products-card__favorite _icon-Favorite"></a>
+                                            </div>                                          
+                                        </div>
+                                        <button type="button" class="products-card__cart button"><span class="_icon-cart">В корзину</span></button>
+                                        <div class="products-card__sale">-15%</div>
+                                    </div>
+                                </article>
+                                <article class="products-card">
+                                    <a href="#" class="products-card__image">
+                                        <span class="products-card__item-image-ibg products-card__item-image-ibg_contain">
+                                            <img src="/Src/Img/icons/Main-Page_[MainSliderPhoto]/01s 1.png">
+                                        </span>
+                                    </a>
+                                    <div class="products-card__body">
+                                        <h4 class="products-card__title">
+                                            <a href="#" class="products-card__link-title">Ніж Лиса</a>
+                                        </h4>
+                                        <div class="products-card__info info-products-card">
+                                            <div class="info-products-card__size">95х18</div>
+                                            <div class="info-products-card__materials">Горіх, Алюміній</div>
+                                        </div>
+                                        <div data-ajax="true" class="products-card__rating rating rating_set">
+                                            <div class="rating__body">
+                                                <div class="rating__active"></div>
+                                                <div class="rating__items">
+                                                    <input type="radio" value="1" name="rating" class="rating__item">
+                                                    <input type="radio" value="2" name="rating" class="rating__item">
+                                                    <input type="radio" value="3" name="rating" class="rating__item">
+                                                    <input type="radio" value="4" name="rating" class="rating__item">
+                                                    <input type="radio" value="5" name="rating" class="rating__item">
+                                                </div>
+                                            </div>
+                                            <div class="rating__value">3.1</div>
+                                            <a href="#" class="rating__info">12 відгуків</a>
+                                        </div>
+                                        <div class="products-card__footer">
+                                            <div class="products-card__price-container">
+                                                <div class="products-card__oldprice">3126₴</div>
+                                                <div class="products-card__newprice">2 719₴</div>
+                                                <div class="products-card__availability">Є в наявності</div>
+                                            </div>
+                                            <div class="products-card__icons-container">
+                                                <a href="" class="products-card__compare _icon-Compare"></a>
+                                                <a href="" class="products-card__favorite _icon-Favorite"></a>
+                                            </div>                                          
+                                        </div>
+                                        <button type="button" class="products-card__cart button"><span class="_icon-cart">В корзину</span></button>
+                                        <div class="products-card__sale">-15%</div>
+                                    </div>
+                                </article>
+                                <article class="products-card">
+                                    <a href="#" class="products-card__image">
+                                        <span class="products-card__item-image-ibg products-card__item-image-ibg_contain">
+                                            <img src="/Src/Img/icons/Main-Page_[MainSliderPhoto]/01s 1.png">
+                                        </span>
+                                    </a>
+                                    <div class="products-card__body">
+                                        <h4 class="products-card__title">
+                                            <a href="#" class="products-card__link-title">Ніж Лиса</a>
+                                        </h4>
+                                        <div class="products-card__info info-products-card">
+                                            <div class="info-products-card__size">95х18</div>
+                                            <div class="info-products-card__materials">Горіх, Алюміній</div>
+                                        </div>
+                                        <div data-ajax="true" class="products-card__rating rating rating_set">
+                                            <div class="rating__body">
+                                                <div class="rating__active"></div>
+                                                <div class="rating__items">
+                                                    <input type="radio" value="1" name="rating" class="rating__item">
+                                                    <input type="radio" value="2" name="rating" class="rating__item">
+                                                    <input type="radio" value="3" name="rating" class="rating__item">
+                                                    <input type="radio" value="4" name="rating" class="rating__item">
+                                                    <input type="radio" value="5" name="rating" class="rating__item">
+                                                </div>
+                                            </div>
+                                            <div class="rating__value">3.1</div>
+                                            <a href="#" class="rating__info">12 відгуків</a>
+                                        </div>
+                                        <div class="products-card__footer">
+                                            <div class="products-card__price-container">
+                                                <div class="products-card__oldprice">3126₴</div>
+                                                <div class="products-card__newprice">2 719₴</div>
+                                                <div class="products-card__availability">Є в наявності</div>
+                                            </div>
+                                            <div class="products-card__icons-container">
+                                                <a href="" class="products-card__compare _icon-Compare"></a>
+                                                <a href="" class="products-card__favorite _icon-Favorite"></a>
+                                            </div>                                          
+                                        </div>
+                                        <button type="button" class="products-card__cart button"><span class="_icon-cart">В корзину</span></button>
+                                        <div class="products-card__sale">-15%</div>
+                                    </div>
+                                </article>
+                                <article class="products-card">
+                                    <a href="#" class="products-card__image">
+                                        <span class="products-card__item-image-ibg products-card__item-image-ibg_contain">
+                                            <img src="/Src/Img/icons/Main-Page_[MainSliderPhoto]/01s 1.png">
+                                        </span>
+                                    </a>
+                                    <div class="products-card__body">
+                                        <h4 class="products-card__title">
+                                            <a href="#" class="products-card__link-title">Ніж Лиса</a>
+                                        </h4>
+                                        <div class="products-card__info info-products-card">
+                                            <div class="info-products-card__size">95х18</div>
+                                            <div class="info-products-card__materials">Горіх, Алюміній</div>
+                                        </div>
+                                        <div data-ajax="true" class="products-card__rating rating rating_set">
+                                            <div class="rating__body">
+                                                <div class="rating__active"></div>
+                                                <div class="rating__items">
+                                                    <input type="radio" value="1" name="rating" class="rating__item">
+                                                    <input type="radio" value="2" name="rating" class="rating__item">
+                                                    <input type="radio" value="3" name="rating" class="rating__item">
+                                                    <input type="radio" value="4" name="rating" class="rating__item">
+                                                    <input type="radio" value="5" name="rating" class="rating__item">
+                                                </div>
+                                            </div>
+                                            <div class="rating__value">3.1</div>
+                                            <a href="#" class="rating__info">12 відгуків</a>
+                                        </div>
+                                        <div class="products-card__footer">
+                                            <div class="products-card__price-container">
+                                                <div class="products-card__oldprice">3126₴</div>
+                                                <div class="products-card__newprice">2 719₴</div>
+                                                <div class="products-card__availability">Є в наявності</div>
+                                            </div>
+                                            <div class="products-card__icons-container">
+                                                <a href="" class="products-card__compare _icon-Compare"></a>
+                                                <a href="" class="products-card__favorite _icon-Favorite"></a>
+                                            </div>                                          
+                                        </div>
+                                        <button type="button" class="products-card__cart button"><span class="_icon-cart">В корзину</span></button>
+                                        <div class="products-card__sale">-15%</div>
+                                    </div>
+                                </article>
+                                <article class="products-card">
+                                    <a href="#" class="products-card__image">
+                                        <span class="products-card__item-image-ibg products-card__item-image-ibg_contain">
+                                            <img src="/Src/Img/icons/Main-Page_[MainSliderPhoto]/01s 1.png">
+                                        </span>
+                                    </a>
+                                    <div class="products-card__body">
+                                        <h4 class="products-card__title">
+                                            <a href="#" class="products-card__link-title">Ніж Лиса</a>
+                                        </h4>
+                                        <div class="products-card__info info-products-card">
+                                            <div class="info-products-card__size">95х18</div>
+                                            <div class="info-products-card__materials">Горіх, Алюміній</div>
+                                        </div>
+                                        <div data-ajax="true" class="products-card__rating rating rating_set">
+                                            <div class="rating__body">
+                                                <div class="rating__active"></div>
+                                                <div class="rating__items">
+                                                    <input type="radio" value="1" name="rating" class="rating__item">
+                                                    <input type="radio" value="2" name="rating" class="rating__item">
+                                                    <input type="radio" value="3" name="rating" class="rating__item">
+                                                    <input type="radio" value="4" name="rating" class="rating__item">
+                                                    <input type="radio" value="5" name="rating" class="rating__item">
+                                                </div>
+                                            </div>
+                                            <div class="rating__value">3.1</div>
+                                            <a href="#" class="rating__info">12 відгуків</a>
+                                        </div>
+                                        <div class="products-card__footer">
+                                            <div class="products-card__price-container">
+                                                <div class="products-card__oldprice">3126₴</div>
+                                                <div class="products-card__newprice">2 719₴</div>
+                                                <div class="products-card__availability">Є в наявності</div>
+                                            </div>
+                                            <div class="products-card__icons-container">
+                                                <a href="" class="products-card__compare _icon-Compare"></a>
+                                                <a href="" class="products-card__favorite _icon-Favorite"></a>
+                                            </div>                                          
+                                        </div>
+                                        <button type="button" class="products-card__cart button"><span class="_icon-cart">В корзину</span></button>
+                                        <div class="products-card__sale">-15%</div>
+                                    </div>
+                                </article>
+                                <article class="products-card">
+                                    <a href="#" class="products-card__image">
+                                        <span class="products-card__item-image-ibg products-card__item-image-ibg_contain">
+                                            <img src="/Src/Img/icons/Main-Page_[MainSliderPhoto]/01s 1.png">
+                                        </span>
+                                    </a>
+                                    <div class="products-card__body">
+                                        <h4 class="products-card__title">
+                                            <a href="#" class="products-card__link-title">Ніж Лиса</a>
+                                        </h4>
+                                        <div class="products-card__info info-products-card">
+                                            <div class="info-products-card__size">95х18</div>
+                                            <div class="info-products-card__materials">Горіх, Алюміній</div>
+                                        </div>
+                                        <div data-ajax="true" class="products-card__rating rating rating_set">
+                                            <div class="rating__body">
+                                                <div class="rating__active"></div>
+                                                <div class="rating__items">
+                                                    <input type="radio" value="1" name="rating" class="rating__item">
+                                                    <input type="radio" value="2" name="rating" class="rating__item">
+                                                    <input type="radio" value="3" name="rating" class="rating__item">
+                                                    <input type="radio" value="4" name="rating" class="rating__item">
+                                                    <input type="radio" value="5" name="rating" class="rating__item">
+                                                </div>
+                                            </div>
+                                            <div class="rating__value">3.1</div>
+                                            <a href="#" class="rating__info">12 відгуків</a>
+                                        </div>
+                                        <div class="products-card__footer">
+                                            <div class="products-card__price-container">
+                                                <div class="products-card__oldprice">3126₴</div>
+                                                <div class="products-card__newprice">2 719₴</div>
+                                                <div class="products-card__availability">Є в наявності</div>
+                                            </div>
+                                            <div class="products-card__icons-container">
+                                                <a href="" class="products-card__compare _icon-Compare"></a>
+                                                <a href="" class="products-card__favorite _icon-Favorite"></a>
+                                            </div>                                          
+                                        </div>
+                                        <button type="button" class="products-card__cart button"><span class="_icon-cart">В корзину</span></button>
+                                        <div class="products-card__sale">-15%</div>
+                                    </div>
+                                </article>
+                                <article class="products-card">
+                                    <a href="#" class="products-card__image">
+                                        <span class="products-card__item-image-ibg products-card__item-image-ibg_contain">
+                                            <img src="/Src/Img/icons/Main-Page_[MainSliderPhoto]/01s 1.png">
+                                        </span>
+                                    </a>
+                                    <div class="products-card__body">
+                                        <h4 class="products-card__title">
+                                            <a href="#" class="products-card__link-title">Ніж Лиса</a>
+                                        </h4>
+                                        <div class="products-card__info info-products-card">
+                                            <div class="info-products-card__size">95х18</div>
+                                            <div class="info-products-card__materials">Горіх, Алюміній</div>
+                                        </div>
+                                        <div data-ajax="true" class="products-card__rating rating rating_set">
+                                            <div class="rating__body">
+                                                <div class="rating__active"></div>
+                                                <div class="rating__items">
+                                                    <input type="radio" value="1" name="rating" class="rating__item">
+                                                    <input type="radio" value="2" name="rating" class="rating__item">
+                                                    <input type="radio" value="3" name="rating" class="rating__item">
+                                                    <input type="radio" value="4" name="rating" class="rating__item">
+                                                    <input type="radio" value="5" name="rating" class="rating__item">
+                                                </div>
+                                            </div>
+                                            <div class="rating__value">3.1</div>
+                                            <a href="#" class="rating__info">12 відгуків</a>
+                                        </div>
+                                        <div class="products-card__footer">
+                                            <div class="products-card__price-container">
+                                                <div class="products-card__oldprice">3126₴</div>
+                                                <div class="products-card__newprice">2 719₴</div>
+                                                <div class="products-card__availability">Є в наявності</div>
+                                            </div>
+                                            <div class="products-card__icons-container">
+                                                <a href="" class="products-card__compare _icon-Compare"></a>
+                                                <a href="" class="products-card__favorite _icon-Favorite"></a>
+                                            </div>                                          
+                                        </div>
+                                        <button type="button" class="products-card__cart button"><span class="_icon-cart">В корзину</span></button>
+                                        <div class="products-card__sale">-15%</div>
+                                    </div>
+                                </article>
+                                <article class="products-card">
+                                    <a href="#" class="products-card__image">
+                                        <span class="products-card__item-image-ibg products-card__item-image-ibg_contain">
+                                            <img src="/Src/Img/icons/Main-Page_[MainSliderPhoto]/01s 1.png">
+                                        </span>
+                                    </a>
+                                    <div class="products-card__body">
+                                        <h4 class="products-card__title">
+                                            <a href="#" class="products-card__link-title">Ніж Лиса</a>
+                                        </h4>
+                                        <div class="products-card__info info-products-card">
+                                            <div class="info-products-card__size">95х18</div>
+                                            <div class="info-products-card__materials">Горіх, Алюміній</div>
+                                        </div>
+                                        <div data-ajax="true" class="products-card__rating rating rating_set">
+                                            <div class="rating__body">
+                                                <div class="rating__active"></div>
+                                                <div class="rating__items">
+                                                    <input type="radio" value="1" name="rating" class="rating__item">
+                                                    <input type="radio" value="2" name="rating" class="rating__item">
+                                                    <input type="radio" value="3" name="rating" class="rating__item">
+                                                    <input type="radio" value="4" name="rating" class="rating__item">
+                                                    <input type="radio" value="5" name="rating" class="rating__item">
+                                                </div>
+                                            </div>
+                                            <div class="rating__value">3.1</div>
+                                            <a href="#" class="rating__info">12 відгуків</a>
+                                        </div>
+                                        <div class="products-card__footer">
+                                            <div class="products-card__price-container">
+                                                <div class="products-card__oldprice">3126₴</div>
+                                                <div class="products-card__newprice">2 719₴</div>
+                                                <div class="products-card__availability">Є в наявності</div>
+                                            </div>
+                                            <div class="products-card__icons-container">
+                                                <a href="" class="products-card__compare _icon-Compare"></a>
+                                                <a href="" class="products-card__favorite _icon-Favorite"></a>
+                                            </div>                                          
+                                        </div>
+                                        <button type="button" class="products-card__cart button"><span class="_icon-cart">В корзину</span></button>
+                                        <div class="products-card__sale">-15%</div>
+                                    </div>
+                                </article>
+                                <article class="products-card">
+                                    <a href="#" class="products-card__image">
+                                        <span class="products-card__item-image-ibg products-card__item-image-ibg_contain">
+                                            <img src="/Src/Img/icons/Main-Page_[MainSliderPhoto]/01s 1.png">
+                                        </span>
+                                    </a>
+                                    <div class="products-card__body">
+                                        <h4 class="products-card__title">
+                                            <a href="#" class="products-card__link-title">Ніж Лиса</a>
+                                        </h4>
+                                        <div class="products-card__info info-products-card">
+                                            <div class="info-products-card__size">95х18</div>
+                                            <div class="info-products-card__materials">Горіх, Алюміній</div>
+                                        </div>
+                                        <div data-ajax="true" class="products-card__rating rating rating_set">
+                                            <div class="rating__body">
+                                                <div class="rating__active"></div>
+                                                <div class="rating__items">
+                                                    <input type="radio" value="1" name="rating" class="rating__item">
+                                                    <input type="radio" value="2" name="rating" class="rating__item">
+                                                    <input type="radio" value="3" name="rating" class="rating__item">
+                                                    <input type="radio" value="4" name="rating" class="rating__item">
+                                                    <input type="radio" value="5" name="rating" class="rating__item">
+                                                </div>
+                                            </div>
+                                            <div class="rating__value">3.1</div>
+                                            <a href="#" class="rating__info">12 відгуків</a>
+                                        </div>
+                                        <div class="products-card__footer">
+                                            <div class="products-card__price-container">
+                                                <div class="products-card__oldprice">3126₴</div>
+                                                <div class="products-card__newprice">2 719₴</div>
+                                                <div class="products-card__availability">Є в наявності</div>
+                                            </div>
+                                            <div class="products-card__icons-container">
+                                                <a href="" class="products-card__compare _icon-Compare"></a>
+                                                <a href="" class="products-card__favorite _icon-Favorite"></a>
+                                            </div>                                          
+                                        </div>
+                                        <button type="button" class="products-card__cart button"><span class="_icon-cart">В корзину</span></button>
+                                        <div class="products-card__sale">-15%</div>
+                                    </div>
+                                </article>
+                                <article class="products-card">
+                                    <a href="#" class="products-card__image">
+                                        <span class="products-card__item-image-ibg products-card__item-image-ibg_contain">
+                                            <img src="/Src/Img/icons/Main-Page_[MainSliderPhoto]/01s 1.png">
+                                        </span>
+                                    </a>
+                                    <div class="products-card__body">
+                                        <h4 class="products-card__title">
+                                            <a href="#" class="products-card__link-title">Ніж Лиса</a>
+                                        </h4>
+                                        <div class="products-card__info info-products-card">
+                                            <div class="info-products-card__size">95х18</div>
+                                            <div class="info-products-card__materials">Горіх, Алюміній</div>
+                                        </div>
+                                        <div data-ajax="true" class="products-card__rating rating rating_set">
+                                            <div class="rating__body">
+                                                <div class="rating__active"></div>
+                                                <div class="rating__items">
+                                                    <input type="radio" value="1" name="rating" class="rating__item">
+                                                    <input type="radio" value="2" name="rating" class="rating__item">
+                                                    <input type="radio" value="3" name="rating" class="rating__item">
+                                                    <input type="radio" value="4" name="rating" class="rating__item">
+                                                    <input type="radio" value="5" name="rating" class="rating__item">
+                                                </div>
+                                            </div>
+                                            <div class="rating__value">3.1</div>
+                                            <a href="#" class="rating__info">12 відгуків</a>
+                                        </div>
+                                        <div class="products-card__footer">
+                                            <div class="products-card__price-container">
+                                                <div class="products-card__oldprice">3126₴</div>
+                                                <div class="products-card__newprice">2 719₴</div>
+                                                <div class="products-card__availability">Є в наявності</div>
+                                            </div>
+                                            <div class="products-card__icons-container">
+                                                <a href="" class="products-card__compare _icon-Compare"></a>
+                                                <a href="" class="products-card__favorite _icon-Favorite"></a>
+                                            </div>                                          
+                                        </div>
+                                        <button type="button" class="products-card__cart button"><span class="_icon-cart">В корзину</span></button>
+                                        <div class="products-card__sale">-15%</div>
+                                    </div>
+                                </article>
+                                <article class="products-card">
+                                    <a href="#" class="products-card__image">
+                                        <span class="products-card__item-image-ibg products-card__item-image-ibg_contain">
+                                            <img src="/Src/Img/icons/Main-Page_[MainSliderPhoto]/01s 1.png">
+                                        </span>
+                                    </a>
+                                    <div class="products-card__body">
+                                        <h4 class="products-card__title">
+                                            <a href="#" class="products-card__link-title">Ніж Лиса</a>
+                                        </h4>
+                                        <div class="products-card__info info-products-card">
+                                            <div class="info-products-card__size">95х18</div>
+                                            <div class="info-products-card__materials">Горіх, Алюміній</div>
+                                        </div>
+                                        <div data-ajax="true" class="products-card__rating rating rating_set">
+                                            <div class="rating__body">
+                                                <div class="rating__active"></div>
+                                                <div class="rating__items">
+                                                    <input type="radio" value="1" name="rating" class="rating__item">
+                                                    <input type="radio" value="2" name="rating" class="rating__item">
+                                                    <input type="radio" value="3" name="rating" class="rating__item">
+                                                    <input type="radio" value="4" name="rating" class="rating__item">
+                                                    <input type="radio" value="5" name="rating" class="rating__item">
+                                                </div>
+                                            </div>
+                                            <div class="rating__value">3.1</div>
+                                            <a href="#" class="rating__info">12 відгуків</a>
+                                        </div>
+                                        <div class="products-card__footer">
+                                            <div class="products-card__price-container">
+                                                <div class="products-card__oldprice">3126₴</div>
+                                                <div class="products-card__newprice">2 719₴</div>
+                                                <div class="products-card__availability">Є в наявності</div>
+                                            </div>
+                                            <div class="products-card__icons-container">
+                                                <a href="" class="products-card__compare _icon-Compare"></a>
+                                                <a href="" class="products-card__favorite _icon-Favorite"></a>
+                                            </div>                                          
+                                        </div>
+                                        <button type="button" class="products-card__cart button"><span class="_icon-cart">В корзину</span></button>
+                                        <div class="products-card__sale">-15%</div>
+                                    </div>
+                                </article>
+                                <article class="products-card">
+                                    <a href="#" class="products-card__image">
+                                        <span class="products-card__item-image-ibg products-card__item-image-ibg_contain">
+                                            <img src="/Src/Img/icons/Main-Page_[MainSliderPhoto]/01s 1.png">
+                                        </span>
+                                    </a>
+                                    <div class="products-card__body">
+                                        <h4 class="products-card__title">
+                                            <a href="#" class="products-card__link-title">Ніж Лиса</a>
+                                        </h4>
+                                        <div class="products-card__info info-products-card">
+                                            <div class="info-products-card__size">95х18</div>
+                                            <div class="info-products-card__materials">Горіх, Алюміній</div>
+                                        </div>
+                                        <div data-ajax="true" class="products-card__rating rating rating_set">
+                                            <div class="rating__body">
+                                                <div class="rating__active"></div>
+                                                <div class="rating__items">
+                                                    <input type="radio" value="1" name="rating" class="rating__item">
+                                                    <input type="radio" value="2" name="rating" class="rating__item">
+                                                    <input type="radio" value="3" name="rating" class="rating__item">
+                                                    <input type="radio" value="4" name="rating" class="rating__item">
+                                                    <input type="radio" value="5" name="rating" class="rating__item">
+                                                </div>
+                                            </div>
+                                            <div class="rating__value">3.1</div>
+                                            <a href="#" class="rating__info">12 відгуків</a>
+                                        </div>
+                                        <div class="products-card__footer">
+                                            <div class="products-card__price-container">
+                                                <div class="products-card__oldprice">3126₴</div>
+                                                <div class="products-card__newprice">2 719₴</div>
+                                                <div class="products-card__availability">Є в наявності</div>
+                                            </div>
+                                            <div class="products-card__icons-container">
+                                                <a href="" class="products-card__compare _icon-Compare"></a>
+                                                <a href="" class="products-card__favorite _icon-Favorite"></a>
+                                            </div>                                          
+                                        </div>
+                                        <button type="button" class="products-card__cart button"><span class="_icon-cart">В корзину</span></button>
+                                        <div class="products-card__sale">-15%</div>
+                                    </div>
+                                </article>
+                                <article class="products-card">
+                                    <a href="#" class="products-card__image">
+                                        <span class="products-card__item-image-ibg products-card__item-image-ibg_contain">
+                                            <img src="/Src/Img/icons/Main-Page_[MainSliderPhoto]/01s 1.png">
+                                        </span>
+                                    </a>
+                                    <div class="products-card__body">
+                                        <h4 class="products-card__title">
+                                            <a href="#" class="products-card__link-title">Ніж Лиса</a>
+                                        </h4>
+                                        <div class="products-card__info info-products-card">
+                                            <div class="info-products-card__size">95х18</div>
+                                            <div class="info-products-card__materials">Горіх, Алюміній</div>
+                                        </div>
+                                        <div data-ajax="true" class="products-card__rating rating rating_set">
+                                            <div class="rating__body">
+                                                <div class="rating__active"></div>
+                                                <div class="rating__items">
+                                                    <input type="radio" value="1" name="rating" class="rating__item">
+                                                    <input type="radio" value="2" name="rating" class="rating__item">
+                                                    <input type="radio" value="3" name="rating" class="rating__item">
+                                                    <input type="radio" value="4" name="rating" class="rating__item">
+                                                    <input type="radio" value="5" name="rating" class="rating__item">
+                                                </div>
+                                            </div>
+                                            <div class="rating__value">3.1</div>
+                                            <a href="#" class="rating__info">12 відгуків</a>
+                                        </div>
+                                        <div class="products-card__footer">
+                                            <div class="products-card__price-container">
+                                                <div class="products-card__oldprice">3126₴</div>
+                                                <div class="products-card__newprice">2 719₴</div>
+                                                <div class="products-card__availability">Є в наявності</div>
+                                            </div>
+                                            <div class="products-card__icons-container">
+                                                <a href="" class="products-card__compare _icon-Compare"></a>
+                                                <a href="" class="products-card__favorite _icon-Favorite"></a>
+                                            </div>                                          
+                                        </div>
+                                        <button type="button" class="products-card__cart button"><span class="_icon-cart">В корзину</span></button>
+                                        <div class="products-card__sale">-15%</div>
+                                    </div>
+                                </article>
+                                <article class="products-card">
+                                    <a href="#" class="products-card__image">
+                                        <span class="products-card__item-image-ibg products-card__item-image-ibg_contain">
+                                            <img src="/Src/Img/icons/Main-Page_[MainSliderPhoto]/01s 1.png">
+                                        </span>
+                                    </a>
+                                    <div class="products-card__body">
+                                        <h4 class="products-card__title">
+                                            <a href="#" class="products-card__link-title">Ніж Лиса</a>
+                                        </h4>
+                                        <div class="products-card__info info-products-card">
+                                            <div class="info-products-card__size">95х18</div>
+                                            <div class="info-products-card__materials">Горіх, Алюміній</div>
+                                        </div>
+                                        <div data-ajax="true" class="products-card__rating rating rating_set">
+                                            <div class="rating__body">
+                                                <div class="rating__active"></div>
+                                                <div class="rating__items">
+                                                    <input type="radio" value="1" name="rating" class="rating__item">
+                                                    <input type="radio" value="2" name="rating" class="rating__item">
+                                                    <input type="radio" value="3" name="rating" class="rating__item">
+                                                    <input type="radio" value="4" name="rating" class="rating__item">
+                                                    <input type="radio" value="5" name="rating" class="rating__item">
+                                                </div>
+                                            </div>
+                                            <div class="rating__value">3.1</div>
+                                            <a href="#" class="rating__info">12 відгуків</a>
+                                        </div>
+                                        <div class="products-card__footer">
+                                            <div class="products-card__price-container">
+                                                <div class="products-card__oldprice">3126₴</div>
+                                                <div class="products-card__newprice">2 719₴</div>
+                                                <div class="products-card__availability">Є в наявності</div>
+                                            </div>
+                                            <div class="products-card__icons-container">
+                                                <a href="" class="products-card__compare _icon-Compare"></a>
+                                                <a href="" class="products-card__favorite _icon-Favorite"></a>
+                                            </div>                                          
+                                        </div>
+                                        <button type="button" class="products-card__cart button"><span class="_icon-cart">В корзину</span></button>
+                                        <div class="products-card__sale">-15%</div>
+                                    </div>
+                                </article>
+                                <article class="products-card">
+                                    <a href="#" class="products-card__image">
+                                        <span class="products-card__item-image-ibg products-card__item-image-ibg_contain">
+                                            <img src="/Src/Img/icons/Main-Page_[MainSliderPhoto]/01s 1.png">
+                                        </span>
+                                    </a>
+                                    <div class="products-card__body">
+                                        <h4 class="products-card__title">
+                                            <a href="#" class="products-card__link-title">Ніж Лиса</a>
+                                        </h4>
+                                        <div class="products-card__info info-products-card">
+                                            <div class="info-products-card__size">95х18</div>
+                                            <div class="info-products-card__materials">Горіх, Алюміній</div>
+                                        </div>
+                                        <div data-ajax="true" class="products-card__rating rating rating_set">
+                                            <div class="rating__body">
+                                                <div class="rating__active"></div>
+                                                <div class="rating__items">
+                                                    <input type="radio" value="1" name="rating" class="rating__item">
+                                                    <input type="radio" value="2" name="rating" class="rating__item">
+                                                    <input type="radio" value="3" name="rating" class="rating__item">
+                                                    <input type="radio" value="4" name="rating" class="rating__item">
+                                                    <input type="radio" value="5" name="rating" class="rating__item">
+                                                </div>
+                                            </div>
+                                            <div class="rating__value">3.1</div>
+                                            <a href="#" class="rating__info">12 відгуків</a>
+                                        </div>
+                                        <div class="products-card__footer">
+                                            <div class="products-card__price-container">
+                                                <div class="products-card__oldprice">3126₴</div>
+                                                <div class="products-card__newprice">2 719₴</div>
+                                                <div class="products-card__availability">Є в наявності</div>
+                                            </div>
+                                            <div class="products-card__icons-container">
+                                                <a href="" class="products-card__compare _icon-Compare"></a>
+                                                <a href="" class="products-card__favorite _icon-Favorite"></a>
+                                            </div>                                          
+                                        </div>
+                                        <button type="button" class="products-card__cart button"><span class="_icon-cart">В корзину</span></button>
+                                        <div class="products-card__sale">-15%</div>
+                                    </div>
+                                </article>
+                                <article class="products-card">
+                                    <a href="#" class="products-card__image">
+                                        <span class="products-card__item-image-ibg products-card__item-image-ibg_contain">
+                                            <img src="/Src/Img/icons/Main-Page_[MainSliderPhoto]/01s 1.png">
+                                        </span>
+                                    </a>
+                                    <div class="products-card__body">
+                                        <h4 class="products-card__title">
+                                            <a href="#" class="products-card__link-title">Ніж Лиса</a>
+                                        </h4>
+                                        <div class="products-card__info info-products-card">
+                                            <div class="info-products-card__size">95х18</div>
+                                            <div class="info-products-card__materials">Горіх, Алюміній</div>
+                                        </div>
+                                        <div data-ajax="true" class="products-card__rating rating rating_set">
+                                            <div class="rating__body">
+                                                <div class="rating__active"></div>
+                                                <div class="rating__items">
+                                                    <input type="radio" value="1" name="rating" class="rating__item">
+                                                    <input type="radio" value="2" name="rating" class="rating__item">
+                                                    <input type="radio" value="3" name="rating" class="rating__item">
+                                                    <input type="radio" value="4" name="rating" class="rating__item">
+                                                    <input type="radio" value="5" name="rating" class="rating__item">
+                                                </div>
+                                            </div>
+                                            <div class="rating__value">3.1</div>
+                                            <a href="#" class="rating__info">12 відгуків</a>
+                                        </div>
+                                        <div class="products-card__footer">
+                                            <div class="products-card__price-container">
+                                                <div class="products-card__oldprice">3126₴</div>
+                                                <div class="products-card__newprice">2 719₴</div>
+                                                <div class="products-card__availability">Є в наявності</div>
+                                            </div>
+                                            <div class="products-card__icons-container">
+                                                <a href="" class="products-card__compare _icon-Compare"></a>
+                                                <a href="" class="products-card__favorite _icon-Favorite"></a>
+                                            </div>                                          
+                                        </div>
+                                        <button type="button" class="products-card__cart button"><span class="_icon-cart">В корзину</span></button>
+                                        <div class="products-card__sale">-15%</div>
+                                    </div>
+                                </article>
+                                <article class="products-card">
+                                    <a href="#" class="products-card__image">
+                                        <span class="products-card__item-image-ibg products-card__item-image-ibg_contain">
+                                            <img src="/Src/Img/icons/Main-Page_[MainSliderPhoto]/01s 1.png">
+                                        </span>
+                                    </a>
+                                    <div class="products-card__body">
+                                        <h4 class="products-card__title">
+                                            <a href="#" class="products-card__link-title">Ніж Лиса</a>
+                                        </h4>
+                                        <div class="products-card__info info-products-card">
+                                            <div class="info-products-card__size">95х18</div>
+                                            <div class="info-products-card__materials">Горіх, Алюміній</div>
+                                        </div>
+                                        <div data-ajax="true" class="products-card__rating rating rating_set">
+                                            <div class="rating__body">
+                                                <div class="rating__active"></div>
+                                                <div class="rating__items">
+                                                    <input type="radio" value="1" name="rating" class="rating__item">
+                                                    <input type="radio" value="2" name="rating" class="rating__item">
+                                                    <input type="radio" value="3" name="rating" class="rating__item">
+                                                    <input type="radio" value="4" name="rating" class="rating__item">
+                                                    <input type="radio" value="5" name="rating" class="rating__item">
+                                                </div>
+                                            </div>
+                                            <div class="rating__value">3.1</div>
+                                            <a href="#" class="rating__info">12 відгуків</a>
+                                        </div>
+                                        <div class="products-card__footer">
+                                            <div class="products-card__price-container">
+                                                <div class="products-card__oldprice">3126₴</div>
+                                                <div class="products-card__newprice">2 719₴</div>
+                                                <div class="products-card__availability">Є в наявності</div>
+                                            </div>
+                                            <div class="products-card__icons-container">
+                                                <a href="" class="products-card__compare _icon-Compare"></a>
+                                                <a href="" class="products-card__favorite _icon-Favorite"></a>
+                                            </div>                                          
+                                        </div>
+                                        <button type="button" class="products-card__cart button"><span class="_icon-cart">В корзину</span></button>
+                                        <div class="products-card__sale">-15%</div>
+                                    </div>
+                                </article>
+                                <article class="products-card">
+                                    <a href="#" class="products-card__image">
+                                        <span class="products-card__item-image-ibg products-card__item-image-ibg_contain">
+                                            <img src="/Src/Img/icons/Main-Page_[MainSliderPhoto]/01s 1.png">
+                                        </span>
+                                    </a>
+                                    <div class="products-card__body">
+                                        <h4 class="products-card__title">
+                                            <a href="#" class="products-card__link-title">Ніж Лиса</a>
+                                        </h4>
+                                        <div class="products-card__info info-products-card">
+                                            <div class="info-products-card__size">95х18</div>
+                                            <div class="info-products-card__materials">Горіх, Алюміній</div>
+                                        </div>
+                                        <div data-ajax="true" class="products-card__rating rating rating_set">
+                                            <div class="rating__body">
+                                                <div class="rating__active"></div>
+                                                <div class="rating__items">
+                                                    <input type="radio" value="1" name="rating" class="rating__item">
+                                                    <input type="radio" value="2" name="rating" class="rating__item">
+                                                    <input type="radio" value="3" name="rating" class="rating__item">
+                                                    <input type="radio" value="4" name="rating" class="rating__item">
+                                                    <input type="radio" value="5" name="rating" class="rating__item">
+                                                </div>
+                                            </div>
+                                            <div class="rating__value">3.1</div>
+                                            <a href="#" class="rating__info">12 відгуків</a>
+                                        </div>
+                                        <div class="products-card__footer">
+                                            <div class="products-card__price-container">
+                                                <div class="products-card__oldprice">3126₴</div>
+                                                <div class="products-card__newprice">2 719₴</div>
+                                                <div class="products-card__availability">Є в наявності</div>
+                                            </div>
+                                            <div class="products-card__icons-container">
+                                                <a href="" class="products-card__compare _icon-Compare"></a>
+                                                <a href="" class="products-card__favorite _icon-Favorite"></a>
+                                            </div>                                          
+                                        </div>
+                                        <button type="button" class="products-card__cart button"><span class="_icon-cart">В корзину</span></button>
+                                        <div class="products-card__sale">-15%</div>
+                                    </div>
+                                </article>
+                                <article class="products-card">
+                                    <a href="#" class="products-card__image">
+                                        <span class="products-card__item-image-ibg products-card__item-image-ibg_contain">
+                                            <img src="/Src/Img/icons/Main-Page_[MainSliderPhoto]/01s 1.png">
+                                        </span>
+                                    </a>
+                                    <div class="products-card__body">
+                                        <h4 class="products-card__title">
+                                            <a href="#" class="products-card__link-title">Ніж Лиса</a>
+                                        </h4>
+                                        <div class="products-card__info info-products-card">
+                                            <div class="info-products-card__size">95х18</div>
+                                            <div class="info-products-card__materials">Горіх, Алюміній</div>
+                                        </div>
+                                        <div data-ajax="true" class="products-card__rating rating rating_set">
+                                            <div class="rating__body">
+                                                <div class="rating__active"></div>
+                                                <div class="rating__items">
+                                                    <input type="radio" value="1" name="rating" class="rating__item">
+                                                    <input type="radio" value="2" name="rating" class="rating__item">
+                                                    <input type="radio" value="3" name="rating" class="rating__item">
+                                                    <input type="radio" value="4" name="rating" class="rating__item">
+                                                    <input type="radio" value="5" name="rating" class="rating__item">
+                                                </div>
+                                            </div>
+                                            <div class="rating__value">3.1</div>
+                                            <a href="#" class="rating__info">12 відгуків</a>
+                                        </div>
+                                        <div class="products-card__footer">
+                                            <div class="products-card__price-container">
+                                                <div class="products-card__oldprice">3126₴</div>
+                                                <div class="products-card__newprice">2 719₴</div>
+                                                <div class="products-card__availability">Є в наявності</div>
+                                            </div>
+                                            <div class="products-card__icons-container">
+                                                <a href="" class="products-card__compare _icon-Compare"></a>
+                                                <a href="" class="products-card__favorite _icon-Favorite"></a>
+                                            </div>                                          
+                                        </div>
+                                        <button type="button" class="products-card__cart button"><span class="_icon-cart">В корзину</span></button>
+                                        <div class="products-card__sale">-15%</div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="catalog__footer footer-catalog">
+                                <button type="button" class="footer-catalog__more">Показати більше</button>
+                                <div class="footer-catalog__dotts dotts-footer-catalog">
+                                    <button type="button" disabled class="dotts-footer-catalog__arrow dotts-footer-catalog__arrow_prev"></button>
+                                    <ul class="dotts-footer-catalog__items">
+                                        <li class="dotts-footer-catalog__item"><a href="" class="dotts-footer-catalog__link _active">1</a></li>
+                                        <li class="dotts-footer-catalog__item"><a href="" class="dotts-footer-catalog__link">2</a></li>
+                                        <li class="dotts-footer-catalog__item"><a href="" class="dotts-footer-catalog__link">3</a></li>
+                                        <li class="dotts-footer-catalog__item"><a href="" class="dotts-footer-catalog__link">...</a></li>
+                                        <li class="dotts-footer-catalog__item"><a href="" class="dotts-footer-catalog__link">15</a></li>
+                                    </ul>
+                                    <button type="button"  class="dotts-footer-catalog__arrow dotts-footer-catalog__arrow_next"></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <section class="footer__text-block text-block-footer">
+                <div class="text-block-footer__container _container">
+                    <h1 class="text-block-footer__title">Як вибрати найкращий обробний ніж</h1>
+                    <p class="text-block-footer__text">
+                        При підборі такого виробу необхідно враховувати кілька важливих факторів. Особливо звертати увагу на те, що ножі обробні, ціна яких набагато вища за свої аналоги не завжди є якісними. Тому при виборі виробу враховуєте такі особливості:
+
+                        Рукоятка такого інструменту повинна забезпечувати щільне захоплення. При цьому обробний ніж не тільки повинен добре лежати в руці, але й не ковзати при роботі, незалежно від того, чи він чистий, чи чимось забруднений і намочений.
+                        
+                        Другим моментом стає заточування, зокрема її тип та кут. Всі вироби, представлені в нашому каталозі, мають найбільш оптимальні характеристики заточування, що проводиться з використанням лазерних технологій.
+                        
+                        І наступним важливим фактором стає кріплення леза до ручки, яке має бути максимально надійним та створювати цільну систему.
+                        
+                        І якщо ви не знаєте, який обробний ніж вибрати, то рекомендуємо проконсультуватися у наших спеціалістів, які допоможуть прийняти рішення та підібрати виріб, що підходить під Ваші потреби.
+                    </p>
+                </div>               
+            </section>
+            <div class="footer__container _container">
+                <div class="footer__body body-footer">
+                    <div class="body-footer__row">
+                        <div class="body-footer__item item-footer">
+                            <div data-spollers="992" class="item-footer__spoller spoller-item-footer">
+                                <div class="spoller-item-footer__item">
+                                    <button type="button" data-spoller class="spoller-item-footer__title _active">Інформація</button>
+                                    <div class="spoller-item-footer__body">
+                                        <nav class="menu-footer">
+                                            <ul class="menu-footer__list">
+                                                <li class="menu-footer__item"><a href="" class="menu-footer__link">Золотоустівські ножі у Київській та Київській області</a></li>
+                                                <li class="menu-footer__item"><a href="" class="menu-footer__link">Ножові сталі</a></li>
+                                                <li class="menu-footer__item"><a href="" class="menu-footer__link">Про нас</a></li>
+                                                <li class="menu-footer__item"><a href="" class="menu-footer__link">Умови оплати та доставки</a></li>
+                                                <li class="menu-footer__item"><a href="" class="menu-footer__link">Політика конфіденційності</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="body-footer__item item-footer">
+                            <div data-spollers="992" class="item-footer__spoller spoller-item-footer">
+                                <div class="spoller-item-footer__item">
+                                    <button type="button" data-spoller class="spoller-item-footer__title _active">СЛУЖБА ПІДТРИМКИ</button>
+                                    <div class="spoller-item-footer__body">
+                                        <nav class="menu-footer">
+                                            <ul class="menu-footer__list">
+                                                <li class="menu-footer__item"><a href="" class="menu-footer__link">Контактна інформація</a></li>
+                                                <li class="menu-footer__item"><a href="" class="menu-footer__link">Повернення товару</a></li>
+                                                <li class="menu-footer__item"><a href="" class="menu-footer__link">Карта сайта</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="body-footer__item item-footer">
+                            <div data-spollers="992" class="item-footer__spoller spoller-item-footer">
+                                <div class="spoller-item-footer__item">
+                                    <button type="button" data-spoller class="spoller-item-footer__title _active">Додатково</button>
+                                    <div class="spoller-item-footer__body">
+                                        <nav class="menu-footer">
+                                            <ul class="menu-footer__list">
+                                                <li class="menu-footer__item"><a href="" class="menu-footer__link">Подарункові сертифікати</a></li>
+                                                <li class="menu-footer__item"><a href="" class="menu-footer__link">Партнери</a></li>
+                                                <li class="menu-footer__item"><a href="" class="menu-footer__link">Товари зі знижкою</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="body-footer__item item-footer">
+                            <div data-spollers="992" class="item-footer__spoller spoller-item-footer">
+                                <div class="spoller-item-footer__item">
+                                    <button type="button" data-spoller class="spoller-item-footer__title _active">ОСОБИСТИЙ КАБІНЕТ</button>
+                                    <div class="spoller-item-footer__body">
+                                        <nav class="menu-footer">
+                                            <ul class="menu-footer__list">
+                                                <li class="menu-footer__item"><a href="" class="menu-footer__link">Особистий кабінет</a></li>
+                                                <li class="menu-footer__item"><a href="" class="menu-footer__link">Історія замовлень</a></li>
+                                                <li class="menu-footer__item"><a href="" class="menu-footer__link">Мої закладки</a></li>
+                                                <li class="menu-footer__item"><a href="" class="menu-footer__link">Розсилка новин</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="body-footer__row">
+                        <div class="body-footer__item item-footer">
+                            <div data-spollers="992" class="item-footer__spoller spoller-item-footer">
+                                <div class="spoller-item-footer__item">
+                                    <button type="button" data-spoller class="spoller-item-footer__title _active">Контакти</button>
+                                    <div class="spoller-item-footer__body">
+                                        <nav class="menu-footer">
+                                            <ul class="menu-footer__list contact-footer">
+                                                <li class="menu-footer__item"><a href="" class="menu-footer__link _icon-footer-phone">8 (800) 777-49-67</a></li>
+                                                <li class="menu-footer__item"><a href="" class="menu-footer__link _icon-footer-time">Пн-Пт <br> 7:00 - 16:00 (Київ)</a></li>
+                                                <li class="menu-footer__item"><a href="" class="menu-footer__link _icon-footer-location">Златоуст, <br> вул. Шевченка,<br> б. 1, офіс «6Б»</a></li>
+                                                <li class="menu-footer__item"><a href="" class="menu-footer__link _icon-footer-mail">info@zlatmax.ru</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="body-footer__item item-footer">
+                            <div data-spollers="992" class="item-footer__spoller spoller-item-footer">
+                                <div class="spoller-item-footer__item">
+                                    <button type="button" data-spoller class="spoller-item-footer__title _active">КОРИСНІ ПОСИЛАННЯ</button>
+                                    <div class="spoller-item-footer__body">
+                                        <nav class="menu-footer">
+                                            <ul class="menu-footer__list">
+                                                <li class="menu-footer__item"><a href="" class="menu-footer__link">Способи оплати та доставки</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="body-footer__item item-footer">
+                            <div data-spollers="992" class="item-footer__spoller spoller-item-footer">
+                                <div class="spoller-item-footer__item">
+                                    <button type="button" data-spoller class="spoller-item-footer__title _active">НАША ГАРАНТІЯ</button>
+                                    <div class="spoller-item-footer__body">
+                                        <nav class="menu-footer">
+                                            <div class="menu-footer__text">
+                                                Незадоволені своєю покупкою? Ви можете повернути її протягом 
+                                                30 днів з дати отримання згідно з
+                                                <a href="">нашими правилами</a>
+                                            </div>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="body-footer__item item-footer">
+                            <div data-spollers="992" class="item-footer__spoller spoller-item-footer">
+                                <div class="spoller-item-footer__item">
+                                    <button type="button" data-spoller class="spoller-item-footer__title _active">НОВИННА РОЗСИЛКА</button>
+                                    <div class="spoller-item-footer__text">Підпишіться зараз!</div>
+                                    <form action="#" class="spoller-item-footer__body footer-subscribe">
+                                        <label for="subscribe__input" class="footer-subscribe__label"></label>
+                                         <div class="footer-subscribe__line">
+                                            <input autocomplete="off" name="form[]" data-error="Error" type="text" placeholder="example@gmail.com" class="footer-subscribe__input" id="subscribe__input">
+                                            <button type="submit" class="footer-subscribe__button _icon-arrow-bottom"></button>
+                                         </div> 
+                                         <div class="footer-subscribe__checkbox-container">
+                                         <div class="footer-subscribe__checkbox-button">
+                                            <input type="checkbox" id="subscribe__checkbox" class="footer-subscribe__checkbox">
+                                            </div>
+                                         <label class="footer-subscribe__text" for="subscribe__checkbox">Я прочитав Умови угоди та згоден з умовами</label>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="body-footer__item item-footer">
+                            <div class="menu-footer__item_social item_social">
+                                <a href="" class="item_social__link"><img src="./Src/Img/icons/social/Facebook.png" alt=""></a>
+                                <a href="" class="item_social__link"><img src="./Src/Img/icons/social/Viber.png" alt=""></a>
+                                <a href="" class="item_social__link"><img src="./Src/Img/icons/social/Telegram 4.png" alt=""></a>
+                                <a href="" class="item_social__link"><img src="./Src/Img/icons/social/Whatsapp.png" alt=""></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="body-footer__bottom bottom-body-footer">
+                        <div class="bottom-body-footer__rule">
+                            Всі матеріали, розміщені на сайті, мають довідковий характер і не є
+                            публічної офертою, яка визначається положеннями Статті 437 Цивільного кодексу конституції України.
+                            При копіюванні матеріалів гіперпосилання на www.zlatmax.com є обов'язковим!
+                        </div>
+                        <div class="bottom-body-footer__copy">
+                            Золотоустівські ножі www.zlatmax.com ©
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script type="module" src="/Src/Js/catalog.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="/noUiSlider-15.6.1/dist/nouislider.min.js"></script>
+<script src="../Src/Js/range-slider.js"></script>
+</html>
